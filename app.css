@@ -8,4 +8,11 @@ body {
 
 .pagewrapper {
     display: flex;
+    /* justify-content: flex-end; */
+}
+.right {
+    background-color: grey;
+    justify-self: flex-end;
+    padding:1rem;
+    margin-left: auto;
 }
